@@ -8,7 +8,7 @@ public class Triangle {
 		int a= Integer.parseInt(args[0]);
 		int b= Integer.parseInt(args[1]);
 		int c= Integer.parseInt(args[2]);
-		boolean IsItaTriangle=((a+b)>c && (a+c)>b && c+b>a);
+		boolean IsItaTriangle=((a+b)>c && (a+c)>b && (c+b)>a);
 		System.out.println(a+" ,"+b+" ,"+c+" :"+" "+IsItaTriangle);
 	}
 }
