@@ -4,7 +4,7 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		int num = 132;//Integer.parseInt(args[0]);
+		int num = Integer.parseInt(args[0]);
 		int quarter = num/25;
 		int remainder= num%25;
 		System.out.println("use "+ quarter +" and "+ remainder +" cents" );  
