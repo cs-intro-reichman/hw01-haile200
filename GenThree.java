@@ -13,7 +13,7 @@ public class GenThree {
 		int minimal= Math.min(rand3, rand2);
 		minimal= Math.min(minimal, rand1);
 		System.out.println(rand1+"\n"+rand2+"\n"+rand3+"\n"+
-		"the minimal number that was "+ minimal);
+		"the minimal generated number that was "+ minimal);
 
 		 
 	}
