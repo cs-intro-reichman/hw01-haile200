@@ -6,7 +6,7 @@ public class GenThree {
 	public static void main(String[] args) {
 		int lowBound= Integer.parseInt(args[0]);
 		int upBound=  Integer.parseInt(args[1]);
-		double range=(lowBound-upBound)+lowBound;
+		double range= (lowBound-upBound)+lowBound;
 		int rand1= (int) (Math.random ()*range)+lowBound;
 		int rand2= (int) (Math.random ()*range)+lowBound;
 		int rand3= (int) (Math.random ()*range)+lowBound;
