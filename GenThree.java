@@ -4,8 +4,8 @@
  */
 public class GenThree {
 	public static void main(String[] args) {
-		int lowBound= 20;//Integer.parseInt(args[0]);
-		int upBound=  50;//Integer.parseInt(args[1]);
+		int lowBound= Integer.parseInt(args[0]);
+		int upBound=  Integer.parseInt(args[1]);
 		double range=(lowBound-upBound)+lowBound;
 		int rand1= (int) (Math.random ()*range)+lowBound;
 		int rand2= (int) (Math.random ()*range)+lowBound;
